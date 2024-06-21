@@ -15,30 +15,15 @@ This is a simple Tic-Tac-Toe game implemented in C++. It supports two modes: Pla
 
 ## How to Run
 
-### Using Makefile
-
-1. Ensure you have `g++` installed on your system.
-2. Navigate to the project directory.
-3. Compile the program using the following command:
-   ```bash
-   make
-   ```
-5. Run the program to start the game.
-   ```bash
-   ./tic-tac-toe
-   ```
-
-### Using g++
-
 1. Ensure you have `g++` installed on your system.
 2. Navigate to the project directory.
 3. Compile the program using the following command:
    ```bash 
-   g++ -o tic-tac-toe main.cpp
+   g++ -o tictactoe tictactoe.cpp
    ```
 4. Run the program:
    ```bash
-   ./tic-tac-toe
+   ./tictactoe
    ```
 ## Controls
 Enter the number corresponding to the position on the board where you want to place your mark.
